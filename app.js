@@ -8,7 +8,7 @@ const port = process.env.PORT || 5501; //double pipe means "or"
 
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static('images'));
 
 // a forward slash is the home route (same as index.html)
 app.get('/', (req, res) => {
