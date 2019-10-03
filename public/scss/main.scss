@@ -1,21 +1,29 @@
-body {
-  margin: 0 auto;
+
+$font-stack:    athelas, sans-serif;
+$box-shadow:     0em 0.3em 0.5em rgb(194, 194, 194);
+
+
+body
+{
+	margin: 0 auto;
 }
 
+
 @media screen and (max-width: 46.874em) {
-  #navbar {
+#navbar
+{
     background-color: #fcf1e1;
     height: 9.875em;
-    box-shadow: 0em 0.3em 0.5em #c2c2c2;
+    box-shadow: $box-shadow;
     width: 750px;
     padding: 0px;
     margin: 0 auto;
     overflow: hidden;
-  }
-
-  .logo {
-    margin-left: 9em;
-  }
 }
 
-/*# sourceMappingURL=app.css.map */
+.logo
+{
+    margin-left: 9em;
+}
+
+}
