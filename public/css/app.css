@@ -16,6 +16,34 @@ body {
   .logo {
     margin-left: 9em;
   }
+
+  #powerhouse {
+    float: left;
+    position: absolute;
+    font-family: athelas, sans-serif;
+    color: #fcf1e1;
+    font-size: 4em;
+    margin-left: 20px;
+    margin-top: 120px;
+  }
+
+  #released {
+    float: left;
+    position: absolute;
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 2em;
+    margin-top: 300px;
+    margin-left: 20px;
+    background-color: black;
+    padding: 10px;
+  }
+
+  #hero {
+    float: left;
+    filter: brightness(50%);
+    position: relative;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
