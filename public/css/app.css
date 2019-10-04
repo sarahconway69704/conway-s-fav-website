@@ -7,7 +7,6 @@ body {
     background-color: #fcf1e1;
     height: 9.875em;
     box-shadow: 0em 0.3em 0.5em #c2c2c2;
-    width: 750px;
     padding: 0px;
     margin: 0 auto;
     overflow: hidden;
@@ -17,7 +16,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    float: left;
   }
 
   #powerhouse {
@@ -27,7 +25,7 @@ body {
     color: #fcf1e1;
     font-size: 4em;
     margin-left: 20px;
-    margin-top: 120px;
+    margin-top: 100px;
   }
 
   #released {
@@ -36,7 +34,7 @@ body {
     font-family: athelas, sans-serif;
     color: #ffb316;
     font-size: 2em;
-    margin-top: 10.74em;
+    margin-top: 10em;
     margin-left: 20px;
     background-color: black;
     padding: 10px;
@@ -51,6 +49,8 @@ body {
   #welcome {
     display: block;
     float: left;
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
 
   #welcomeHead {
@@ -67,16 +67,64 @@ body {
     font-family: athelas, sans-serif;
     color: #ffb316;
     font-size: 1em;
-    margin-left: 0.5em;
+    margin-left: 4em;
     float: left;
     text-align: center;
     padding: 10px;
+    width: 300px;
     margin-top: 0;
   }
 
-  #timeline {
-    margin-top: 7em;
+  #crockheader {
     float: left;
+  }
+
+  #crockpic {
+    float: left;
+    filter: brightness(50%);
+  }
+
+  #crockTitle {
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 1.5em;
+    width: 200px;
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+  }
+
+  #crockdesc {
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 1.2em;
+    width: 450px;
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    margin-top: 15em;
+  }
+
+  #details2019 {
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 1.2em;
+    position: absolute;
+    margin-top: 17.5em;
+    margin-left: 1em;
+  }
+
+  #timeline {
+    margin-top: 1em;
+    float: left;
+    margin-bottom: 2em;
+  }
+
+  #modelTitle {
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 3em;
+    margin-left: 0.5em;
   }
 
   #year2019 {
@@ -129,7 +177,7 @@ body {
   #year7 {
     float: left;
     font-family: athelas, sans-serif;
-    color: black;
+    color: #ffb316;
     font-size: 2.3em;
     margin-left: 2em;
     background-color: #fce8c1;
@@ -150,12 +198,165 @@ body {
   #year6 {
     float: left;
     font-family: athelas, sans-serif;
-    color: black;
+    color: #ffb316;
     font-size: 2.3em;
   }
 
   #crock4 {
     float: left;
+  }
+
+  #recipesSection {
+    float: left;
+  }
+
+  #repGrid {
+    background-color: #ffb316;
+    float: left;
+    height: 670px;
+  }
+
+  #recipeHeaderpic {
+    float: left;
+    filter: brightness(50%);
+  }
+
+  #recipesTitle {
+    position: absolute;
+    font-family: athelas, sans-serif;
+    color: white;
+    font-size: 2em;
+    margin-top: 4em;
+    margin-left: 6em;
+  }
+
+  #seeall {
+    position: absolute;
+    font-family: athelas, sans-serif;
+    color: white;
+    font-size: 1em;
+    margin-top: 10em;
+    margin-left: 12em;
+  }
+
+  #snacks {
+    float: left;
+    margin-top: 2em;
+    margin-left: 1.6em;
+  }
+
+  #snackPic {
+    float: left;
+    filter: brightness(50%);
+  }
+
+  #snackTitle {
+    position: absolute;
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 2em;
+    margin-top: 4em;
+    margin-left: 1.8em;
+  }
+
+  #meatless {
+    float: left;
+    margin-top: 2em;
+  }
+
+  #meatlessPic {
+    float: left;
+    filter: brightness(50%);
+  }
+
+  #meatlessTitle {
+    position: absolute;
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 2em;
+    margin-top: 4em;
+    margin-left: 1.3em;
+  }
+
+  #pasta {
+    float: left;
+    margin-left: 1.6em;
+  }
+
+  #pastaPic {
+    float: left;
+    filter: brightness(50%);
+  }
+
+  #pastaTitle {
+    position: absolute;
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 2em;
+    margin-top: 4em;
+    margin-left: 2em;
+  }
+
+  #meat {
+    float: left;
+  }
+
+  #meatPic {
+    float: left;
+    filter: brightness(50%);
+  }
+
+  #meatTitle {
+    position: absolute;
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 2em;
+    margin-top: 4em;
+    margin-left: 2em;
+  }
+
+  #form {
+    float: left;
+    margin-top: 5em;
+  }
+
+  #scribeTitle {
+    margin-left: 2.1em;
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 1.8em;
+  }
+
+  #scribe {
+    background-color: #ffb316;
+    border-radius: 1em;
+    padding: 10px;
+    width: 20em;
+    margin-left: 9em;
+    margin-top: 1em;
+    float: left;
+  }
+
+  #button {
+    color: #ffb316;
+    font-size: 1em;
+    border-radius: 1em;
+    float: left;
+    margin-left: 12em;
+    margin-top: 1em;
+  }
+
+  #footer {
+    height: 200px;
+    width: 100%;
+    background-color: #ffb316;
+    float: left;
+    margin-top: 3em;
+  }
+
+  #icons {
+    margin-top: 5em;
+    margin-left: 9em;
   }
 }
 
