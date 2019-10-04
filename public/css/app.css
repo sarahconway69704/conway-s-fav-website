@@ -14,7 +14,10 @@ body {
   }
 
   .logo {
-    margin-left: 9em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
   }
 
   #powerhouse {
@@ -33,7 +36,7 @@ body {
     font-family: athelas, sans-serif;
     color: #ffb316;
     font-size: 2em;
-    margin-top: 300px;
+    margin-top: 10.74em;
     margin-left: 20px;
     background-color: black;
     padding: 10px;
@@ -43,6 +46,116 @@ body {
     float: left;
     filter: brightness(50%);
     position: relative;
+  }
+
+  #welcome {
+    display: block;
+    float: left;
+  }
+
+  #welcomeHead {
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 2em;
+    margin-left: 4.8em;
+    float: left;
+    padding: 0;
+    margin-top: 3em;
+  }
+
+  #welcomePara {
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 1em;
+    margin-left: 0.5em;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  #timeline {
+    margin-top: 7em;
+    float: left;
+  }
+
+  #year2019 {
+    float: left;
+    background-color: #fce8c1;
+    width: 200px;
+  }
+
+  #year9 {
+    float: left;
+    font-family: athelas, sans-serif;
+    color: black;
+    font-size: 2.3em;
+    margin-left: 2em;
+  }
+
+  #crock1 {
+    float: left;
+  }
+
+  #year2018 {
+    float: left;
+    background-color: #fce8c1;
+    width: 200px;
+    height: 300px;
+    margin: 0;
+  }
+
+  #year8 {
+    float: left;
+    font-family: athelas, sans-serif;
+    color: #ffb316;
+    font-size: 2.3em;
+    margin-left: 2em;
+  }
+
+  #bottomrow {
+    float: left;
+    width: 750px;
+  }
+
+  #year2017 {
+    background-color: #fce8c1;
+    margin: 0;
+    float: left;
+    width: 200px;
+    height: 300px;
+  }
+
+  #year7 {
+    float: left;
+    font-family: athelas, sans-serif;
+    color: black;
+    font-size: 2.3em;
+    margin-left: 2em;
+    background-color: #fce8c1;
+  }
+
+  #crock3 {
+    float: left;
+  }
+
+  #year2016 {
+    float: left;
+    background-color: #fce8c1;
+    width: 200px;
+    height: 300px;
+    margin: 0;
+  }
+
+  #year6 {
+    float: left;
+    font-family: athelas, sans-serif;
+    color: black;
+    font-size: 2.3em;
+  }
+
+  #crock4 {
+    float: left;
   }
 }
 
